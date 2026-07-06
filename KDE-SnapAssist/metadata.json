@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Id": "kde-snapassist",
+        "Name": "Snap Assist",
+        "Description": "Windows 11-style snap layouts and Snap Assist, driven by KDE's own tiling engine.",
+        "Icon": "preferences-system-windows-effect-windowaperture",
+        "Authors": [
+            {
+                "Name": "Theologos"
+            }
+        ],
+        "Version": "0.0.1",
+        "License": "GPL-3.0",
+        "Website": "https://github.com/kalotrapezis/KDE-Essensianls",
+        "EnabledByDefault": true
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "X-KWin-Exclude-Listing": "false"
+}
